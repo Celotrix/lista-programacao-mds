@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class AtividadeEmsSala05 {
     public static void main(String[] args) {
         char letra = 'v';
