@@ -5,11 +5,11 @@ public class AtiviadeEmSala04 {
         x += 1;
         System.out.println("x += 1  RESULTADO :" + x);
         x++;
-        System.out.println("x++" + x);
+        System.out.println("x++     RESULTADO :" + x);
         x-= 2;
-        System.out.println("x++" + x);
+        System.out.println("x-= 2   RESULTADO :" + x);
         x--;
-        System.out.println("x--" + x); // Resposta: ?
+        System.out.println("x--     RESULTADO :" + x);
 
 
 
