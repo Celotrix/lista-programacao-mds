@@ -9,17 +9,18 @@ public class AtividadeEmSala09 {
 
         do{
             numero++;
-            System.out.println(" Vezes que o do/while" + numero);
+            System.out.println(" Vezes que o do/while    " + numero);
         }while(numero < 10);
 
         boolean sair = false;
 
         do{
             System.out.println("escolha uma das opções baixo:");
-            System.out.println("1 - Cadastrar novo usuário \n" +
-                    "2 - Editar Usuário \n " +
-                    "3 - Excluir usuário \n" +
-                    "0 - sair \n "
+            System.out.println(
+                    "1 - Cadastrar novo usuário \n" +
+                    "2 - Editar Usuário  \n" +
+                    "3 - Excluir usuário  \n" +
+                    "0 - sair \n"
 
                     );
             int opcao = leia.nextInt();
@@ -29,11 +30,12 @@ public class AtividadeEmSala09 {
                     break;
                 case 1:
                     System.out.println("Cadastrar novo Usuário");
-            }
+                    break;
+                            }
 
 
 
-        }while(sair);
+        }while(!sair);
 
     }
 }
