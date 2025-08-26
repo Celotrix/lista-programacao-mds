@@ -4,7 +4,7 @@ public class AtividadeEmSala10 {
     public static void main(String[] args) {
         // Estrutura WHILE
 
-        int x = 5, contador = 0;
+        int x = 0, contador = 0;
 
         while (contador <=10) {
             System.out.println(x + "*" + contador + " = " + (x * contador));
@@ -19,14 +19,14 @@ public class AtividadeEmSala10 {
             X * 0 = ?
          */
         }
-            Scanner leia = new Scanner(System.in);
+        Scanner leia = new Scanner(System.in);
 
-            System.out.println("Digite um numero inteiro de 0 a 10");
-            int numero = leia.nextInt();
-            contador = 0;
+        System.out.println("Digite um numero inteiro de 0 a 10");
+        int numero = leia.nextInt();
+        contador = 0;
 
 
-            System.out.println("Taboada de  " + numero + " é:");
+        System.out.println("Taboada de  " + numero + " é:");
             while (contador <=10){
                 System.out.println(x + "*" + contador + " = " + (x * contador));
                 contador++;
