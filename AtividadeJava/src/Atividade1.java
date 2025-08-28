@@ -1,22 +1,12 @@
-import java.security.AlgorithmConstraints;
-import java.util.concurrent.atomic.AtomicReference;
+public class Atividade1 {
+    public static void main(String[] args) {
 
-public class Atividade1{
-    public static void main(String[] args){
+        String nome = "Marcelo";
+        String cidade = "Belo Horizonte";
+        final String PAIS = "BRASIL";
 
-
-        int idade = 33;
-        final int MESES_NO_ANO = 12;
-        double result = MESES_NO_ANO * idade;
-        System.out.println("Sua idade em meses é:" + result);
-
-
-
-
-
-
+        System.out.println("Olá eu sou o "+nome+" moro em  "+cidade+" / "+PAIS );
 
 
     }
-
 }
