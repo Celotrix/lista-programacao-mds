@@ -4,7 +4,6 @@ public class Atividade1 {
         String nome = "Marcelo";
         String cidade = "Belo Horizonte";
         final String PAIS = "BRASIL";
-
         System.out.println("Olá eu sou o "+nome+" moro em  "+cidade+" / "+PAIS );
 
 
